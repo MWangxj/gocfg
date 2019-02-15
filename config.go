@@ -1,11 +1,11 @@
 package gocfg
 
 import (
-	`errors`
-	`gopkg.in/ini.v1`
-	`gopkg.in/v1/yaml`
-	`io/ioutil`
-	`os`
+	"errors"
+	"gopkg.in/ini.v1"
+	"gopkg.in/v1/yaml"
+	"io/ioutil"
+	"os"
 )
 
 func Load(filePath string, gcfg interface{}) error {
