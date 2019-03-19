@@ -3,7 +3,7 @@ package gocfg
 import (
 	"errors"
 	"gopkg.in/ini.v1"
-	"gopkg.in/v1/yaml"
+	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"os"
 )

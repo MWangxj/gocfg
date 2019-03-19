@@ -20,6 +20,6 @@ type Config struct {
 
 func TestLoadConfig(t *testing.T) {
 	c := &Config{}
-	Load("./test.ini", c)
+	Load("./test.yaml", c)
 	printInter(c)
 }
