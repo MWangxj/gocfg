@@ -4,7 +4,7 @@
 
     使用方法
 
-    go get -u -v git.dian.so/leto/gocfg
+    go get -u -v github.com/MWangxj/gocfg
 
     s := &struct{}
     if err := gocfg.Load(".ini config file path",s); err != nil {
